@@ -1,3 +1,5 @@
+// This is just a copy of the main file. nno longer of any use. The update are all in the folder named PyXTrans
+
 #define F_CPU 2000000                                    //Defining the clock frequency to be 2 MHz
 #include <avr/io.h>
 #include <util/delay.h>
