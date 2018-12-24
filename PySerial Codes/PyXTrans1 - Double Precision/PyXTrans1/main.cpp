@@ -1,3 +1,5 @@
+// This code as of now is incomplete and untested. Testing can only be done once new compiler cum programmer for ATXmega is acquired.
+
 #define F_CPU 2000000                                    //Defining the clock frequency to be 2 MHz
 #include <avr/io.h>
 #include <util/delay.h>
