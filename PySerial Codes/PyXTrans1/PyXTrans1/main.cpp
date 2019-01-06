@@ -37,16 +37,16 @@ int main(void)
 	
 	// The actual data is to be received from Python via a start flag (From Python) followed by 4 bytes of data, which will be stored in the variables a, b, c, d.
 	// That code will look something like this:
-	// while(1){
-	//	head1 = receive();
-	//	if (head1 == 'a'){
-	//		break;
-	//	}
-	//}
-	//int a = receive();					// These are the received data from the Python Console, stored in a, b, c and d.
-	//int b = receive();
-	//int c = receive();
-	//int d = recieve();
+	while(1){
+		head1 = receive();
+		if (head1 == 'a'){
+			break;
+		}
+	}
+	int a = receive();					// These are the received data from the Python Console, stored in a, b, c and d.
+	int b = receive();
+	int c = receive();
+	int d = recieve();
 	
 	/*
 	int a = 0x3f;						// These are superfluous as these have already been defined from the received data from Python.
