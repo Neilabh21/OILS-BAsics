@@ -1,0 +1,383 @@
+Microsoft Windows [Version 10.0.17134.472]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>cd C:\Users\Neilabh\Documents\oils
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Start sending?
+Input a float to send: 1.542
+b'?\xc5`B'
+Variable sent
+b'@\x18-J'
+2.3777642250061035
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Start sending?
+Input a float to send: 1.542
+b'?\xc5`B'
+Variable sent
+b'@j\xa8$'
+3.6665124893188477
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.326
+b'E\x02%7'
+Variable sent
+b'\x00j\xa8$'
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.326
+b'E\x02%7'
+Variable sent
+b'\x00j\xa8$'
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.326
+b'E\x02%7'
+Variable sent
+b'\x00j\xa8$'
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.326
+b'E\x02%7'
+Variable sent
+b'\x00j\xa8$'
+9.794880083845466e-39
+7.303795697584381e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.326
+b'7%\x02E'
+Variable sent
+b'\x00j\xa8$'
+9.794880083845466e-39
+7.303795697584381e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.542
+b'B`\xc5?'
+Variable sent
+b'H-F\x9c'
+177434.4375
+-6.557122915812505e-22
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.542
+b'?\xc5`B'
+Variable sent
+b'@j\xa8$'
+3.6665124893188477
+7.303838049231744e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2.082326
+b'@\x05D\xd4'
+Variable sent
+b'\x00j\xa8$'
+9.794880083845466e-39
+7.303795697584381e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2.082326
+b'\xd4D\x05@'
+Variable sent
+b'\x00j\xa8$'
+7.303795697584381e-17
+9.794880083845466e-39
+7.303795697584381e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.542
+b'B`\xc5?'
+Variable sent
+b'H-F\x9c'
+-6.557122915812505e-22
+177434.4375
+-6.557122915812505e-22
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.542
+b'?\xc5`B'
+Variable sent
+b'@j\xa8$'
+7.303838049231744e-17
+3.6665124893188477
+7.303838049231744e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.542
+b'B`\xc5?'
+Variable sent
+b'@j\xa8$'
+7.303838049231744e-17
+3.6665124893188477
+7.303838049231744e-17
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.542
+b'B`\xc5?'
+Variable sent
+b'$\xa8j@'
+3.6665124893188477
+7.303838049231744e-17
+3.6665124893188477
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.326
+b'7%\x02E'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.32
+b'\x1f%\x02E'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082.3
+b'\xcd$\x02E'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2082
+b'\x00 \x02E'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 208
+b'\x00\x00PC'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 20
+b'\x00\x00\xa0A'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 20
+b'\x00\x00\xa0A'
+Variable sent
+b'$\xa8j\x00'
+9.794880083845466e-39
+7.303795697584381e-17
+9.794880083845466e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.54234
+b'fk\xc5?'
+Variable sent
+b'\xe2\xcfj@'
+3.668938159942627
+-1.9130660713122035e+21
+3.668938159942627
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2.323
+b'\x08\xac\x14@'
+Variable sent
+b'\xe2\xcfj\x00'
+9.809136894421507e-39
+-1.9130570641129488e+21
+9.809136894421507e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 0.2323
+b'\r\xe0m>'
+Variable sent
+b'\xe2\xcfj\x00'
+9.809136894421507e-39
+-1.9130570641129488e+21
+9.809136894421507e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.9898
+b'\xc4\xb1\xfe?'
+Variable sent
+b'g\x1a\xfc@'
+7.878222942352295
+7.318976295545186e+23
+7.878222942352295
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.123
+b'w\xbe\x8f?'
+Variable sent
+b'\x9dG\xb5?'
+1.4162479639053345
+-2.6431132737970256e-21
+1.4162479639053345
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 3.265
+b'\xc3\xf5P@'
+Variable sent
+b'\xf98\x0bB'
+34.80563735961914
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 3.265
+b'\xc3\xf5P@'
+Variable sent
+b'\xf98\x0bB'
+34.80563735961914
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 4.56565
+b'\xce\x19\x92@'
+Variable sent
+b'\xe9W\xbeB'
+95.17169952392578
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 5
+b'\x00\x00\xa0@'
+Variable sent
+b'\xe9W\xbe\x00'
+1.748028049195796e-38
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 6
+b'\x00\x00\xc0@'
+Variable sent
+b'\xe9W\xbe\x00'
+1.748028049195796e-38
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 5.43535
+b'c\xee\xad@'
+Variable sent
+b'\xa3\x93 C'
+160.5767059326172
+
+C:\Users\Neilabh\Documents\OILS>
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 5.0000
+b'\x00\x00\xa0@'
+Variable sent
+b'\xa3\x93 \x00'
+2.991697952514875e-39
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 5.00001
+b'\x15\x00\xa0@'
+Variable sent
+b'\xa3\x93 \x00'
+2.991697952514875e-39
+
+C:\Users\Neilabh\Documents\OILS>DIR > OILS_10th_Jan_1.txt
+
+C:\Users\Neilabh\Documents\OILS>
+
+
+
+
+
+
+Microsoft Windows [Version 10.0.17134.472]
+(c) 2018 Microsoft Corporation. All rights reserved.
+
+C:\Users\Neilabh>
+C:\Users\Neilabh>cd Documents\OILS
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 1.0
+b'\x00\x00\x80?'
+Variable sent
+b'\x00\x00\x00\x7f'
+1.7014118346046923e+38
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 2.0
+b'\x00\x00\x00@'
+Variable sent
+b'\x00\x00\x00\x80'
+-0.0
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 3.0
+b'\x00\x00@@'
+Variable sent
+b'\x00\x00\x80\x80'
+-1.1754943508222875e-38
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 10
+b'\x00\x00 A'
+Variable sent
+b'\x00\x00@\x82'
+-1.410593220986745e-37
+
+C:\Users\Neilabh\Documents\OILS>python "PySerial Transfer Float Final 2.py"
+Port Accepted
+Input a float to send: 10.1545
+b'\xd5x"A'
+Variable sent
+b'\xd5x\xa2A'
+20.30900001525879
+
+C:\Users\Neilabh\Documents\OILS>
