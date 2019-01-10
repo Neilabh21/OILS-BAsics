@@ -21,11 +21,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_frame  00000088  00000000  00000000  00008238  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    00002518  00000000  00000000  000082c0  2**0
+  9 .debug_str    00002503  00000000  00000000  000082c0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    0000021e  00000000  00000000  0000a7d8  2**0
+ 10 .debug_loc    0000021e  00000000  00000000  0000a7c3  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000020  00000000  00000000  0000a9f6  2**0
+ 11 .debug_ranges 00000020  00000000  00000000  0000a9e1  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -279,9 +279,11 @@ int main(void)
 		if (head1 == 'a'){
      2a6:	81 36       	cpi	r24, 0x61	; 97
      2a8:	e1 f7       	brne	.-8      	; 0x2a2 <main+0x44>
+			//transmit('b');
 			break;
 		}
 	}
+	
 	uint8_t a = receive();					// These are the received data from the Python Console, stored in a, b, c and d.
      2aa:	0e 94 27 01 	call	0x24e	; 0x24e <_Z7receivev>
      2ae:	18 2f       	mov	r17, r24
@@ -340,12 +342,12 @@ int main(void)
      300:	de 88       	ldd	r13, Y+22	; 0x16
      302:	ef 88       	ldd	r14, Y+23	; 0x17
      304:	f8 8c       	ldd	r15, Y+24	; 0x18
+								// Thus, *((float*)&num) returns the value in the address of the floating point number in num.
 	// val.f = 58.328659;					// This was for testing the last part of the code.
 								// Working as of now. Verified.
 	
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~The function in val.f comes here.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	// val.f = val.f * 2;
-	val.f = val.f*val.f*val.f;
+	val.f = val.f * val.f * val.f;
      306:	a7 01       	movw	r20, r14
      308:	96 01       	movw	r18, r12
      30a:	c7 01       	movw	r24, r14
@@ -354,6 +356,7 @@ int main(void)
      312:	a7 01       	movw	r20, r14
      314:	96 01       	movw	r18, r12
      316:	0e 94 d7 01 	call	0x3ae	; 0x3ae <__mulsf3>
+	//val.f = val.f*val.f*val.f;
 	
 	// The following function takes the 32-bit integer value from the union val (in the HEX form), sparates it into 4 packets of 8 bits each and the sends them one by one.
 	sprintf(buff2,"%lx", val.i);				// This writes the val.i into the 2nd buffer, buff2.

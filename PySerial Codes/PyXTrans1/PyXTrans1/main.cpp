@@ -40,9 +40,11 @@ int main(void)
 	while(1){
 		uint8_t head1 = receive();
 		if (head1 == 'a'){
+			//transmit('b');
 			break;
 		}
 	}
+	
 	uint8_t a = receive();					// These are the received data from the Python Console, stored in a, b, c and d.
 	uint8_t b = receive();
 	uint8_t c = receive();
@@ -108,8 +110,8 @@ int main(void)
 								// Working as of now. Verified.
 	
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~The function in val.f comes here.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-	// val.f = val.f * 2;
-	val.f = val.f*val.f*val.f;
+	val.f = val.f * val.f * val.f;
+	//val.f = val.f*val.f*val.f;
 	
 	// The following function takes the 32-bit integer value from the union val (in the HEX form), sparates it into 4 packets of 8 bits each and the sends them one by one.
 	sprintf(buff2,"%lx", val.i);				// This writes the val.i into the 2nd buffer, buff2.
