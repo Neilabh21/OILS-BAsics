@@ -699,11 +699,11 @@ END GROUP
  *(.debug_frame)
  .debug_frame   0x00000000       0x88 main.o
 
-.debug_str      0x00000000     0x252f
+.debug_str      0x00000000     0x2524
  *(.debug_str)
  .debug_str     0x00000000     0x223b C:/Program Files (x86)/Atmel/Studio/7.0/Packs/atmel/XMEGAA_DFP/1.1.68/gcc/dev/atxmega128a3u/avrxmega6/crtatxmega128a3u.o
- .debug_str     0x0000223b      0x2f4 main.o
-                                0x32d (size before relaxing)
+ .debug_str     0x0000223b      0x2e9 main.o
+                                0x322 (size before relaxing)
 
 .debug_loc      0x00000000      0x256
  *(.debug_loc)

@@ -54,10 +54,10 @@ int main(void)
 	uint8_t d = receive();
 	
 	/*
-	int a = 0x00;						// These are superfluous as these have already been defined from the received data from Python.
-	int b = 0xc0;						// These were for basic testing and debugging.
-	int c = 0x7f;
-	int d = 0x44;
+	a = 0x45;						// These are superfluous as these have already been defined from the received data from Python.
+	b = 0x7e;						// These were for basic testing and debugging.
+	c = 0xc0;
+	d = 0x00;
 	*/
 	
 	// I am not sure, but I think, we can replace the array with a, b, c and d.
@@ -101,10 +101,13 @@ int main(void)
 	// We commented it out as it was malfunctioning and we could not figurre out the precise reason other than that there is some kind of data type size mismatch.
 	// ip.f = atof(buff);
 	
-	long int num;						// This is a 32-bit integer, num, which accepts the numerical value from the string buff.
+	signed long int num;						// This is a 32-bit integer, num, which accepts the numerical value from the string buff.
 	sscanf(buff, "%lx", &num); 				// This line scans the string buff, in the format "%lx" and stores the value of the long integer ('l')
 								// in HEX form ('x') in the variable num, passed by reference.
 	ip.f = *((float*)&num);				// Here the magic takes place and the integer gets converted to float.
+	
+	//ip.f = (float)num;
+	
 								// We store the value of the num, passed by reference, so that we can use the same data with a different data type.
 								// Here, the different datat type is float.
 								// So, the (float*)&num retuns the address of the floating point number in num.
@@ -115,7 +118,7 @@ int main(void)
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~The function in val.f comes here.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	float z = ip.f;
-	// z = 1023.0;
+	// z = 2038;
 	z = 2*z;
 	op.f = z;
 	

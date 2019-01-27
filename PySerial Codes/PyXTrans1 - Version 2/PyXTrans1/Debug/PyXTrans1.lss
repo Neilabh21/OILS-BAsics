@@ -21,11 +21,11 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING
   8 .debug_frame  00000088  00000000  00000000  00008248  2**2
                   CONTENTS, READONLY, DEBUGGING
-  9 .debug_str    0000252f  00000000  00000000  000082d0  2**0
+  9 .debug_str    00002524  00000000  00000000  000082d0  2**0
                   CONTENTS, READONLY, DEBUGGING
- 10 .debug_loc    00000256  00000000  00000000  0000a7ff  2**0
+ 10 .debug_loc    00000256  00000000  00000000  0000a7f4  2**0
                   CONTENTS, READONLY, DEBUGGING
- 11 .debug_ranges 00000020  00000000  00000000  0000aa55  2**0
+ 11 .debug_ranges 00000020  00000000  00000000  0000aa4a  2**0
                   CONTENTS, READONLY, DEBUGGING
 
 Disassembly of section .text:
@@ -323,7 +323,7 @@ int main(void)
 	// We commented it out as it was malfunctioning and we could not figurre out the precise reason other than that there is some kind of data type size mismatch.
 	// ip.f = atof(buff);
 	
-	long int num;						// This is a 32-bit integer, num, which accepts the numerical value from the string buff.
+	signed long int num;						// This is a 32-bit integer, num, which accepts the numerical value from the string buff.
 	sscanf(buff, "%lx", &num); 				// This line scans the string buff, in the format "%lx" and stores the value of the long integer ('l')
      2e6:	ce 01       	movw	r24, r28
      2e8:	45 96       	adiw	r24, 0x15	; 21
@@ -339,7 +339,7 @@ int main(void)
 	// ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~The function in val.f comes here.~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 	
 	float z = ip.f;
-	// z = 1023.0;
+	// z = 2038;
 	z = 2*z;
 	op.f = z;
      2fe:	6d 89       	ldd	r22, Y+21	; 0x15
