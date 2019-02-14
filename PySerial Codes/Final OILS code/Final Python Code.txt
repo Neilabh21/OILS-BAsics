@@ -1,0 +1,19 @@
+import serial
+import struct
+port=serial.Serial('COM4',9600)
+print("Port Accepted")
+
+float1 = input("Input a float to send: ")
+float1 = float(float1)
+
+print((struct.pack('<f', float1)))
+port.write(b"\x61")
+port.write((struct.pack('<f', float1)))
+print("Variable sent")
+
+port.flushInput()
+a1 = port.read(4)
+print(a1)
+print(struct.unpack('=f', a1)[0])
+
+input()
